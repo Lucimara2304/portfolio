@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#500000;
+}
+
+.conteudo {
+    background-color:#500000;
+}
+
+#navegacao ul{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    gap: 200px;
+    list-style: none;
+}
+#navegacao ul a{
+    text-decoration: none;
+    color:#A4031F ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.perfil{
+    display: flex;
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 10px;
+}
+.perfil div{
+margin :20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 3px #630402;
+}
+
+.habilidades{
+    background-color:#1E1E1E ;
+    padding: 15px;
+    margin: 10px ;
+}
